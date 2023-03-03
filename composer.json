@@ -1,0 +1,32 @@
+{
+  "name": "rschoonheim/laraveldataintegrations",
+  "description": "Easily integrate data from external sources into your Laravel application.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Romano Schoonheim",
+      "role": "Engineer",
+      "email": "romano@atmosphere.sh"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Rschoonheim\\LaravelDataIntegrations\\": "src/"
+    }
+  },
+  "require-dev": {},
+  "autoload-dev": {
+    "psr-4": {
+      "Rschoonheim\\LaravelDataIntegrations\\Testing\\": "testing/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rschoonheim\\LaravelDataIntegrations\\LaravelDataIntegrationsServiceProvider"
+      ]
+    }
+  }
+}
