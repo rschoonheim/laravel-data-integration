@@ -1,6 +1,6 @@
 # Laravel Data Integrations
 
-Introducing the Laravel Data Integrations Library - a powerful and flexible PHP library designed specifically for data integrations in Laravel applications.
+Introducing the Data Integrations Library for Laravel - a powerful and flexible PHP library designed specifically for data integrations in Laravel applications.
 
 With this library, you can easily connect to and integrate with a wide range of data sources, including databases, APIs, and third-party services. Whether you need to pull data from an external system, push data to a new destination, or transform data between formats, our library provides the tools and functionality you need to get the job done quickly and efficiently.
 
