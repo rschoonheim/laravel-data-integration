@@ -10,13 +10,14 @@
       "email": "romano@atmosphere.sh"
     }
   ],
-  "require": {},
   "autoload": {
     "psr-4": {
       "Rschoonheim\\LaravelDataIntegrations\\": "src/"
     }
   },
-  "require-dev": {},
+  "require-dev": {
+    "orchestra/testbench": "^8.0"
+  },
   "autoload-dev": {
     "psr-4": {
       "Rschoonheim\\LaravelDataIntegrations\\Testing\\": "testing/"
